@@ -1,5 +1,6 @@
 // creaa una programa que pida al usuario (nombre y notas de los estudiantes), calcule el promedio de las notas y clasifique a los estudiantes segun sus rendimientos...//
 alert("Bienvenido al sistema de notas academico, si desea conocer su promedio toque ¡ACEPTAR!")
+
 let nombre = prompt("ingresa tu nombre");
 
 let nota1 = parseFloat (prompt(nombre + "ingrese su nota estudiante 1"));
@@ -8,6 +9,8 @@ let nota3 = parseFloat (prompt(nombre + "ingrese su nota estudiante 3"));
 let nota4 = parseFloat (prompt(nombre + "ingrese su nota estudiante 4"));
 let nota5 = parseFloat (prompt(nombre + "ingrese su nota estudiante 5"));
 let nota6 = parseFloat (prompt(nombre + "ingrese su nota estudiante 6"));
+
+alert("Ahora visualizara su promedio estudiante");
 
 
 let promedio = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 ) / 6; 
